@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Build step can go here (optional)
+  post_build:
+    commands:
+      - echo Build completed
+artifacts:
+  files:
+    - index.js
+    - package.json
+    - appspec.yml
+    - install.sh
+    - scripts/**.*
