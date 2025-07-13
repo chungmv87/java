@@ -17,6 +17,6 @@ hooks:
       runas: ec2-user
 
   ApplicationStart:
-    - location: scripts/start.sh
+    - location: /data/myNodejsApp/scripts/start.sh
       timeout: 100
       runas: ec2-user
