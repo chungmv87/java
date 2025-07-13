@@ -3,4 +3,4 @@
 #pkill node || true
 
 # Start app ở background
-nohup node ../index.js > app.log 2>&1 &
+nohup node /data/myNodejsApp/index.js > app.log 2>&1 &
