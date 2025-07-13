@@ -12,6 +12,7 @@ phases:
       - echo "Build step can go here (optional)"
   post_build:
     commands:
+      - chmod +x scripts/*.sh
       - echo "Build completed"
 artifacts:
   files:
