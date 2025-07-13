@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/myapp
+cd /data/myNodejsApp
 npm install
 chmod +x scripts/start.sh
 ./scripts/start.sh
