@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /data/myNodejsApp
-npm install
 chmod +x scripts/start.sh
-./scripts/start.sh
+cd /data/
+chown ec2-user:ec2-user myNodejsApp -R
+npm install

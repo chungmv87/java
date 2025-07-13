@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /data/myNodejsApp
+    runas: ec2-user
 
 hooks:
   ApplicationStop:
